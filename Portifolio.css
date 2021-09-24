@@ -200,12 +200,13 @@ body {
   background: none;
 }
 
-.AluraFlix, .Trunfo, .Mentalista{
+.projeto a, .projeto li{
   color:var(--input-color);
   background: none;
   font-size: var(--h2-font-size);
   list-style-type:circle;
   font-weight: var(--font-semi-bold);
+  background: none !important;
   text-shadow: 1px 1px 4px var(--container-color);
 }
 
