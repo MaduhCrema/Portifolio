@@ -219,7 +219,7 @@ body {
   top:80px;
   left:-120px;
   width: 800px;
-  height: 350px;
+  height: auto;
   color:var(--tittle-color);
   background: none;
   -webkit-text-stroke: 1px var(--input-color);
@@ -231,8 +231,8 @@ body {
   position: absolute;
   top:510px;
   left:100px;
-  width: 800px;
-  height: 350px;
+  width: 200px;
+  height: auto;
   color:var(--input-color);
   background: none;
   font-size: var(--small-font-size);
