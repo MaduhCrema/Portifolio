@@ -1,0 +1,163 @@
+/*Fontes do google*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap");
+
+/*variáveis*/
+:root {
+  /*CORES*/
+  --firts-color: #6d78d7;
+  --firts-color-lighter: #b0b8f8;
+  --tittle-color: #424daf;
+  --text-color: #2b2727;
+  --text-color-light: #474343;
+  --input-color: #2b2727;
+  --body-color: #fae5e5;
+  --container-color: #b0b8f8;
+
+  /*tamanho das fontes */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /*font weight*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*fonte*/
+  --body-font: "Oswald", sans-serif;
+}
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-image: url("https://i.ibb.co/pjPBKSs/BACKGROUND.png");
+  font-family: var(--body-font);
+}
+
+/*Rolagem suave na página*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+}
+
+/*logo*/
+.logo {
+  display: grid;
+  height: 100px;
+  width: 150px;
+  position: relative;
+  top: 20px;
+  left: 65px;
+  grid-template-columns: 20px 100px;
+  font-weight: var(--font-medium);
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+}
+
+.logo:hover {
+  font-size: var(--h2-font-size);
+  color: var(--text-color-ligh);
+  transition: 0.5s;
+}
+
+.gg-code-slash {
+  margin-top: 5px;
+}
+
+/*menu*/
+.menu {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  margin-top: 20px;
+  margin-left: 150px;
+  list-style-type: none;
+  color: var(#424daf);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+/*head do menu*/
+.head_menu {
+  display: grid;
+  grid-template-columns: 280px 200px;
+}
+
+/*Menu de rede sociais*/
+.menuRedes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  width: 40%;
+  list-style-type: none;
+  font-size: var(--normal-font-size);
+}
+
+.menuRedes li {
+  margin: 20px;
+}
+
+.Instagram i {
+  margin-left: 15px;
+}
+
+.Instagram a,
+.Linkedin a,
+.Github a {
+  color: black;
+}
+
+.Linkedin i {
+  margin-left: 12px;
+}
+
+.Github i {
+  margin-left: 8px;
+}
+
+/*formulario*/
+.formulario {
+  position: relative;
+  top:auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  background: none;
+}
+
+
+
+.bloco{
+  position: absolute;
+  top:190px;
+  left:-150px;
+  background: var(--body-color);
+  width: 610px;
+  height: 350px;
+  opacity: 0.4;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px var(--text-color-light);
+}
+
+.titulo{
+  position: absolute;
+  top:340px;
+  left:-70px;
+  width: 800px;
+  height: 350px;
+  color:var(--firts-color);
+  background: none;
+  -webkit-text-stroke: 1px var(--input-color);
+  font-size: var(--big-font-size);
+  text-shadow: 4px 4px 4px grey;
+}
+

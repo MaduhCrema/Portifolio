@@ -1,0 +1,75 @@
+<html>
+
+<head>
+ <link rel="stylesheet" type="text/css" href="CSS/Contato.css" media="screen">
+  <!-- conexão com os icones -->
+  <link href='https://css.gg/instagram.css' rel='stylesheet'>
+  <link href='https://css.gg/code-slash.css' rel='stylesheet'>
+  <link href='https://css.gg/profile.css' rel='stylesheet'>
+  <link href='https://css.gg/bot.css' rel='stylesheet'>
+  <link href='https://css.gg/chevron-double-down.css' rel='stylesheet'>
+  <title>Portifólio da Maduh</title>
+</head>
+
+<body>
+  <!--Cabeçalho-->
+
+  <div class="head_menu">
+    <!--Logo-->
+    <div class="logo">
+      <i class="gg-code-slash"></i>
+      <a class="nome_logo" href="PaginaInicial.html">Maduh Crema</a>
+    </div>
+    <!--menu-->
+    <nav class="nav_menu">
+      <ul class="menu">
+        <li class="sobreMim"><a href="SobreMim.html">Sobre mim</a></li>
+        <li class="portifolio"><a href="Portifolio.html">Portifólio</a></li>
+        <li class="contate-me"><a href="#">Contate-me</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--Menu de redes sociais-->
+  <nav>
+    <ul class="menuRedes">
+      <li class="Instagram">
+        <a href="https://www.instagram.com/maduhcodes/">
+          <i class="gg-instagram"></i>
+          Instagram
+        </a>
+      </li>
+      <li class="Linkedin">
+        <a href="https://www.linkedin.com/in/maria-eduarda-crema-carlos-673a13174/">
+          <i class="gg-profile"></i>
+          Linkedin
+        </a>
+      </li>
+      <li class="Github">
+        <a href="https://github.com/MaduhCrema">
+          <i class="gg-bot"></i>
+          Github
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="formulario">
+    <!--formulario-->    
+   <div class="bloco"></div>
+   <h1 class="titulo">Entre em contato</h1> 
+    
+    <form action="https://formsubmit.co/eduardacremacarlos2016@gmail.com" method="POST">
+        <input class="assunto" type="text" name="name" placeholder="Nome" required>
+        <input class="email" type="email" name="email" placeholder="E-mail" required>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Obrigado.html">
+        <textarea placeholder="Mensagem" class="mensagem" name="message" rows="10" required></textarea>
+        <button class="botao" type="submit">Enviar</button>
+
+        <p class="credito" >Powered by FormSubmit</a></p>
+   </form>
+  </main>
+
+</body>
+
+</html>
