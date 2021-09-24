@@ -35,7 +35,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  background-image: url("https://i.ibb.co/pjPBKSs/BACKGROUND.png");
+  background-image: url("https://i.ibb.co/8BtV9v0/Papel-de-pared.png");
+  background-position: center;
   font-family: var(--body-font);
 }
 
@@ -60,6 +61,11 @@ body {
   font-weight: var(--font-medium);
   font-size: var(--h3-font-size);
   color: var(--text-color);
+  background: none !important;
+}
+
+.nome_logo{
+  background: none !important;
 }
 
 .logo:hover {
@@ -70,6 +76,7 @@ body {
 
 .gg-code-slash {
   margin-top: 5px;
+  background: none !important;
 }
 
 /*menu*/
@@ -82,12 +89,22 @@ body {
   color: var(#424daf);
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
+  background: none !important;
+}
+
+.menu a, .menu li{
+  background: none !important;
+}
+
+.nav_menu{
+  background: none !important;
 }
 
 /*head do menu*/
 .head_menu {
   display: grid;
   grid-template-columns: 280px 200px;
+  background: none !important;
 }
 
 /*Menu de rede sociais*/
@@ -100,27 +117,33 @@ body {
   width: 40%;
   list-style-type: none;
   font-size: var(--normal-font-size);
+  background: none !important;
 }
 
 .menuRedes li {
   margin: 20px;
+  background: none !important;
 }
 
 .Instagram i {
+  background: none !important;
   margin-left: 15px;
 }
 
 .Instagram a,
 .Linkedin a,
 .Github a {
+  background: none !important;
   color: black;
 }
 
 .Linkedin i {
+  background: none !important;
   margin-left: 12px;
 }
 
 .Github i {
+  background: none !important;
   margin-left: 8px;
 }
 
@@ -131,6 +154,7 @@ body {
   width: auto;
   height: auto;
   display: flex;
+  background: none !important;
   background: none;
 }
 
@@ -143,6 +167,7 @@ body {
   color: var(--firts-color);
   font-size: var(--big-font-size);
   background: none;
+  background: none !important;
   text-shadow: 4px 6px 2px  #b0b8f8;
 }
 
@@ -155,6 +180,7 @@ body {
     color: var(--firts-color);
     font-size: var(--big-font-size);
     background: none;
+    background: none !important;
     text-shadow: 4px 6px 2px  #b0b8f8;
   }
 

@@ -35,7 +35,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  background-image: url("https://i.ibb.co/pjPBKSs/BACKGROUND.png");
+  background-image: url("https://i.ibb.co/8BtV9v0/Papel-de-pared.png");
   font-family: var(--body-font);
 }
 
@@ -60,6 +60,11 @@ body {
   font-weight: var(--font-medium);
   font-size: var(--h3-font-size);
   color: var(--text-color);
+  background: none !important;
+}
+
+.nome_logo{
+  background: none !important;
 }
 
 .logo:hover {
@@ -82,8 +87,16 @@ body {
   color: var(#424daf);
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
+  background: none !important;
 }
 
+.menu a, .menu li{
+  background: none !important;
+}
+
+.nav_menu{
+  background: none !important;
+}
 /*head do menu*/
 .head_menu {
   display: grid;
@@ -100,28 +113,34 @@ body {
   width: 40%;
   list-style-type: none;
   font-size: var(--normal-font-size);
+  background: none !important;
 }
 
 .menuRedes li {
   margin: 20px;
+  background: none !important;
 }
 
 .Instagram i {
   margin-left: 15px;
+  background: none !important;
 }
 
 .Instagram a,
 .Linkedin a,
 .Github a {
   color: black;
+  background: none !important;
 }
 
 .Linkedin i {
   margin-left: 12px;
+  background: none !important;
 }
 
 .Github i {
   margin-left: 8px;
+  background: none !important;
 }
 
 /*projetos*/
@@ -131,7 +150,7 @@ body {
   width: auto;
   height: auto;
   display: flex;
-  background: none;
+  background: none !important;
 }
 
 
