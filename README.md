@@ -1,5 +1,5 @@
 # Portifolio
-Site que desenvolvi para o  meu portifólio, como não hospei ele ainda deixarei imagens dele aqui.
+Site que desenvolvi para o  meu portifólio, imagens dele a seguir:
 ![PaginaInicial](https://i.ibb.co/cC3b8Nr/pagina.png)
 ![SobreMim](https://i.ibb.co/Kzv9L71/sobreMim.png)
 ![Portifolio](https://i.ibb.co/0QY638s/Portifolio.png)
